@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Node / Tailwind CLI (if added later)
+node_modules/

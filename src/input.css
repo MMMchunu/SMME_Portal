@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Bootstrap uses .collapse for accordions; stop Tailwind generating its visibility:collapse utility */
+@source not inline("collapse");
+
+@theme {
+  --color-sedfa-gold: #b29530;
+  --color-sedfa-black: #000000;
+  --color-sedfa-green: #0f8140;
+  --font-sans: "Montserrat", sans-serif;
+}
